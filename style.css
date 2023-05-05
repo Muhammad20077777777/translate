@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form button{
+    height: 10rem;
+    width: 30rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: rgb(0, 0, 0);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(0, 255, 0), rgb(222, 247, 2),rgb(0, 255, 0));
+    font-size: 2rem;
+    font-family:sans-serif;
+    box-shadow: -5px 5px 20px 5px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+button:focus, button:hover{
+    box-shadow: -10px 10px 20px 5px;
+}
+
+
